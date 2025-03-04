@@ -1,0 +1,14 @@
+fuse:
+  dir: "/litefs"
+  
+data:
+  dir: "/data"
+
+lease:
+  type: "static"
+  candidate: true
+
+proxy:
+  addr: ":8080"
+  target: "localhost:8081"
+  db: "/litefs/analytics.db"

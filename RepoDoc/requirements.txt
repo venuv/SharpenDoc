@@ -1,0 +1,4 @@
+anthropic>=0.8.0
+google-generativeai>=0.3.2
+openai>=1.12.0
+gitingest>=0.1.0
